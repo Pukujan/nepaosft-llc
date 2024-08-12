@@ -2071,7 +2071,7 @@ blockquote cite:before {
   display: block;
   line-height: 28px;
   font-family: 'Livvic', sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--primary-color);
   text-transform: uppercase;
@@ -4027,7 +4027,7 @@ body .search-modal .close:hover {
 }
 
 .rs-about.style2 .image-part img {
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .rs-about.style2.modify1 {
@@ -6812,8 +6812,8 @@ body .search-modal .close:hover {
 }
 
 .rs-services.main-home .services-item .services-icon .image-part img {
-  width: 80px;
-  height: 80px;
+  width: 300px;
+  height: 300px;
 }
 
 .rs-services.main-home .services-item .services-content .services-text .services-title {

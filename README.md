@@ -5,4 +5,4 @@ Html, css, js, responsive.css, font-awesome icons, bootstrap.min.js, jquery
 
 work remaining home page : 
 
-out clients, client testimonials, footer
+out clients, client testimonials, footer, add new svg images, fix arrow buttons

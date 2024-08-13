@@ -56,59 +56,59 @@
 
 --------------------------------------------------------*/
 @font-face {
-  font-family: 'Livvic';
+  font-family: var(--font-family-primary);
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/livvic/v8/rnCr-x1S2hzjrlfXbeM-.ttf) format('truetype');
+
 }
 
 @font-face {
-  font-family: 'Livvic';
+  font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffw8Eesg.ttf) format('truetype');
+
 }
 
 @font-face {
-  font-family: 'Livvic';
+  font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/livvic/v8/rnCp-x1S2hzjrlfnbw.ttf) format('truetype');
+
 }
 
 @font-face {
-  font-family: 'Livvic';
+  font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffm8Aesg.ttf) format('truetype');
+
 }
 
 @font-face {
-  font-family: 'Livvic';
+  font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlfft8cesg.ttf) format('truetype');
+
 }
 
 @font-face {
-  font-family: 'Livvic';
+  font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlff08Yesg.ttf) format('truetype');
+
 }
 
 @font-face {
-  font-family: 'Livvic';
+  font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlff68Qesg.ttf) format('truetype');
+
 }
 
 /* -----------------------------------
@@ -118,7 +118,7 @@ html,
 body {
   font-size: 14px;
   color: #454545;
-  font-family: 'Livvic', sans-serif;
+  font-family: var(--font-family-primary);
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
@@ -141,7 +141,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Livvic', sans-serif;
+  font-family: var(--font-family-primary);
   color: #101010;
   margin: 0 0 26px;
   line-height: 1.2;
@@ -237,7 +237,7 @@ body.nav-expanded .offwrap {
 .bold-text {
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Livvic', sans-serif;
+  font-family: var(--font-family-primary);
 }
 
 .extra-bold {
@@ -1107,6 +1107,12 @@ blockquote cite:before {
   border-radius: 8px 8px 8px 8px !important;
 }
 
+.slider-btn {
+  background: #ffffff;
+  color: var(--primary-color);
+  border-radius: 8px 8px 8px 8px !important;
+}
+
 .readon.learn-more.slider-btn:hover {
   background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color)) color: #ffffff;
 }
@@ -1218,6 +1224,8 @@ blockquote cite:before {
 .readon.buy-now.table-btn:hover {
   background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color))
 }
+
+
 
 .readon.buy-now.sl-btn {
   background: rgba(0, 0, 0, 0) linear-gradient(90deg, var(--primary-color), var(--secondary-color)) color: #ffffff;
@@ -1488,7 +1496,7 @@ blockquote cite:before {
   padding-right: 25px;
   position: relative;
   z-index: 1;
-  font-family: 'Livvic', sans-serif;
+  font-family: var(--font-family-primary);
   font-weight: 500;
   font-size: 15px;
   transition: all 0.3s;
@@ -2070,7 +2078,7 @@ blockquote cite:before {
   margin: 0 0 10px;
   display: block;
   line-height: 28px;
-  font-family: 'Livvic', sans-serif;
+  font-family: var(--font-family-primary);
   font-size: 20px;
   font-weight: 400;
   color: var(--primary-color);
@@ -2195,7 +2203,8 @@ blockquote cite:before {
 }
 
 .sec-title2 .desc {
-  font-size: 18px;
+
+
   line-height: 31px;
   font-weight: 400;
   color: #454545;
@@ -2648,10 +2657,22 @@ blockquote cite:before {
   border-right: unset;
 }
 
+@media (max-width: 991px) {
+  .full-width-header .rs-header .menu-area {
+    transition: all 0.3s ease;
+    background-image: var(--mobile-menu-2) !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+}
+
 .full-width-header .rs-header .menu-area {
   transition: all 0.3s ease;
-  background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color))
+  background-image: var(--mobile-menu);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+
 
 .full-width-header .rs-header .menu-area .logo-area a img {
   transition: 0.4s;
@@ -2684,7 +2705,7 @@ blockquote cite:before {
   padding: 0;
   color: #ffffff;
   position: relative;
-  font-family: Livvic;
+  font-family: var(--font-family-primary);
 }
 
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
@@ -3652,6 +3673,7 @@ blockquote cite:before {
   padding-left: 20px;
 }
 
+
 .full-width-header .rs-header.style4.modify1 .expand-btn-inner ul .quote-btn a {
   font-size: 14px;
   background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color)) padding: 16px 26px;
@@ -3695,7 +3717,7 @@ blockquote cite:before {
 }
 
 .full-width-header .mobile-menu .rs-menu-toggle {
-  color: #ffffff;
+  color: var(--primary-color);
   float: right;
 }
 
@@ -4078,7 +4100,7 @@ body .search-modal .close:hover {
 }
 
 .rs-about.style4 .about-content .logo-img img {
-  width: 71px;
+  width: 1001px;
 }
 
 .rs-about.style4 .about-content .title {
@@ -4781,9 +4803,14 @@ body .search-modal .close:hover {
 
 /* slider position and padding here  */
 .rs-slider.style1 .slider-content {
-  height: 450px;
+  height: 700px;
   padding: 100px;
 }
+
+.slide3-img {
+  padding-top: 100px;
+}
+
 
 
 /* Style for medium screens and smaller */
@@ -4791,11 +4818,14 @@ body .search-modal .close:hover {
 
   /* You can adjust the max-width value based on your breakpoint for md */
   .rs-slider.style1 .slider-content {
-    height: 500px;
+    height: 700px;
     /* Increase the height as needed */
     padding: 80px;
     /* Adjust padding if needed */
   }
+
+
+
 }
 
 /* Style for small screens and smaller */
@@ -4804,12 +4834,40 @@ body .search-modal .close:hover {
   /* Adjust the max-width value for xs screens if needed */
   .rs-slider.style1 .slider-content {
     bottom: 200px;
-    height: 600px;
-    /* Further increase the height for smaller screens */
+    height: 700px;
 
-    /* Adjust padding if needed */
+  }
+
+
+
+  /* Further increase the height for smaller screens */
+
+  /* Adjust padding if needed */
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+
+  .rs-slider.style1 .slider-content .slide3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .slide3-img {
+    padding-top: 0px;
+  }
+
+  .slide4 {
+    flex-direction: column;
   }
 }
+
 
 
 .rs-slider.style1 .slider-content .sl-sub-title {
@@ -4856,10 +4914,11 @@ body .search-modal .close:hover {
 }
 
 .rs-slider.style1 .slider-content.slide2 {
-  background: black;
+  background: var(--secondary-color);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
 }
 
 .rs-slider.style1 .owl-nav .owl-next,
@@ -4883,8 +4942,8 @@ body .search-modal .close:hover {
 
 .rs-slider.style1 .owl-nav .owl-next i:before,
 .rs-slider.style1 .owl-nav .owl-prev i:before {
-  content: "\f112";
-  font-family: Flaticon;
+  content: "<";
+
 }
 
 .rs-slider.style1 .owl-nav .owl-next:hover,
@@ -4899,7 +4958,7 @@ body .search-modal .close:hover {
 }
 
 .rs-slider.style1 .owl-nav .owl-next i:before {
-  content: "\f113";
+  content: ">";
 }
 
 .rs-slider.style1:hover .owl-nav .owl-next,
@@ -5871,7 +5930,7 @@ body .search-modal .close:hover {
   margin: 0 0 10px;
   display: block;
   line-height: 28px;
-  font-family: 'Livvic', sans-serif;
+  font-family: var(--font-family-primary);
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -8421,7 +8480,7 @@ body .search-modal .close:hover {
 }
 
 .rs-project.style1 .project-item .project-img img {
-  width: 100%;
+  width: 300px;
   transition: 1.3s all ease;
   border-radius: 5px;
 }
@@ -10453,6 +10512,7 @@ body .search-modal .close:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  color: var(--primary-color);
 }
 
 .rs-testimonial.main-home .testi-item .author-desc .author-img {
@@ -11968,6 +12028,7 @@ body .search-modal .close:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 .rs-footer .footer-top {

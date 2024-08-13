@@ -242,7 +242,7 @@ Version: 1.0.0
 /* Put down arrows */
 .nav-menu .rs-mega-menu>a span:after,
 .nav-menu>.menu-item-has-children>a span:after {
-  content: "\f107";
+  content: "+";
   font-family: FontAwesome;
   float: right;
   margin: 2px 0 0 5px;
@@ -506,6 +506,7 @@ Version: 1.0.0
   /* Menu Transition*/
   .rs-menu ul ul {
     opacity: 0;
+
     visibility: hidden;
     transform: translateY(-10px);
     transform: scaleY(0);
@@ -518,6 +519,7 @@ Version: 1.0.0
   .rs-menu li:hover>ul.mega-menu>li>ul {
     opacity: 1;
     visibility: visible;
+
     transform: translateY(0px);
     transform: scaleY(1);
   }
@@ -590,17 +592,20 @@ Version: 1.0.0
 
   .rs-header .menu-area .main-menu .rs-menu ul.nav-menu {
     background: #fff;
+
   }
 
   .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li {
     display: block !important;
     margin-right: 0 !important;
+
   }
 
   .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a {
     height: 50px !important;
     line-height: 50px !important;
     padding: 0 0 0 20px !important;
+
   }
 
   .rs-header .menu-area .main-menu .rs-menu ul.sub-menu {
@@ -612,6 +617,7 @@ Version: 1.0.0
     height: 50px !important;
     line-height: 50px !important;
     padding: 0 !important;
+
   }
 
   .rs-menu .rs-mega-menu .sub-menu div.sub-menu-close {
@@ -621,15 +627,18 @@ Version: 1.0.0
   .rs-header .menu-area .main-menu .rs-menu .nav-menu .mega-menu {
     min-width: unset;
     width: 100%;
+
   }
 
   .rs-header .menu-area .main-menu .rs-menu .nav-menu .mega-menu ul.sub-menu {
     padding: 0;
+
   }
 
   .rs-header .menu-area .main-menu .rs-menu .nav-menu .mega-menu .mega-menu-container .single-megamenu {
     width: 100% !important;
     padding: 0 !important;
+
   }
 
   .rs-header .menu-area .main-menu .rs-menu .nav-menu .mega-menu .single-megamenu ul.sub-menu {
@@ -650,7 +659,7 @@ Version: 1.0.0
     width: 45px;
     text-align: center;
     cursor: pointer;
-    background: #ddd;
+
     z-index: 9;
 
     /* Remove the blue Webkit background when element is tapped */

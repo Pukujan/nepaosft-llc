@@ -4839,8 +4839,7 @@ body .search-modal .close:hover {
     /* Adjust the max-width value for xs screens if needed */
     .rs-slider.style1 .slider-content {
       bottom: 200px;
-      height: 700px;
-
+      height: 700px
     }
 
 

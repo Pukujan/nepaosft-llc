@@ -104,6 +104,7 @@
 .home-banner .banner-img {
   padding: 100px 0 0;
   height: 400px;
+  width: auto;
 
 }
 
@@ -262,6 +263,8 @@
   height: auto;
 
 }
+
+
 
 .client-logo-group>div {
   display: flex;

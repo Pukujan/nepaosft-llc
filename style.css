@@ -116,11 +116,10 @@
 -------------------------------------*/
 html,
 body {
-  font-size: 14px;
-  color: #454545;
+  font-size: var(--font-size) color: var(--text-color);
   font-family: var(--font-family-primary);
   vertical-align: baseline;
-  line-height: 26px;
+
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -130,51 +129,36 @@ img {
   height: auto;
 }
 
-p {
-  margin: 0 0 26px;
-  line-height: 1.8;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-family-primary);
-  color: #101010;
-  margin: 0 0 26px;
-  line-height: 1.2;
-}
 
 h1 {
   font-size: 70px;
-  font-weight: 700;
+
 }
 
 h2 {
   font-size: 36px;
-  font-weight: 700;
+
 }
 
 h3 {
   font-size: 28px;
-  font-weight: 700;
+
 }
 
 h4 {
   font-size: 24px;
-  font-weight: 700;
+
 }
 
 h5 {
   font-size: 18px;
-  font-weight: 700;
+
 }
 
 h6 {
   font-size: 16px;
-  font-weight: 700;
+
+
 }
 
 .pb-230 {
@@ -275,6 +259,7 @@ body.nav-expanded .offwrap {
 .white-color {
   color: #ffffff !important;
 }
+
 
 .pt-255 {
   padding-top: 255px;
@@ -1105,12 +1090,14 @@ blockquote cite:before {
   color: var(--primary-color);
   padding: 10px 20px;
   border-radius: 8px 8px 8px 8px !important;
+
 }
 
 .slider-btn {
   background: #ffffff;
   color: var(--primary-color);
   border-radius: 8px 8px 8px 8px !important;
+  width: 200px;
 }
 
 .readon.learn-more.slider-btn:hover {
@@ -2934,7 +2921,7 @@ blockquote cite:before {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  line-height: 65px;
+
   height: 65px;
   position: relative;
 }
@@ -12032,7 +12019,7 @@ body .search-modal .close:hover {
     35. Footer Section CSS
 ------------------------------------*/
 .rs-footer {
-  background: url(assets/images/bg/footer-bg.png);
+
   background-color: #F5F6F9;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12045,7 +12032,7 @@ body .search-modal .close:hover {
 }
 
 .rs-footer .footer-top .footer-logo img {
-  height: 40px;
+  height: 60px;
 }
 
 .rs-footer .footer-top .widget-title {
@@ -12053,7 +12040,7 @@ body .search-modal .close:hover {
   line-height: 40px;
   font-weight: 600;
   color: #101010;
-  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .rs-footer .footer-top .site-map li {
@@ -12101,7 +12088,7 @@ body .search-modal .close:hover {
 }
 
 .rs-footer .footer-top .address-widget li {
-  padding: 0px 0px 16px 40px;
+  padding: 0px 0px 16px 0;
   position: relative;
 }
 

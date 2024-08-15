@@ -10,6 +10,7 @@
 
   /* Fonts */
   --font-family-primary: 'poppins', sans-serif;
-  --font-family-secondary: 'Georgia', serif;
-  --font-size-base: 14px;
+  --font-size: 14px;
+  --text-color: black;
+
 }

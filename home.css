@@ -21,6 +21,15 @@
   display: flex;
 }
 
+
+.footer-background {
+  background: url(/assets/images/SVG/background\ footer.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
 /* CSS */
 
 
@@ -166,9 +175,12 @@
 }
 
 
-
-
-
+/* about us  */
+.about-us-text {
+  text-align: center;
+  line-height: 2em;
+  font-size: 18px;
+}
 
 /* services css */
 .services-img {
@@ -219,5 +231,76 @@
   opacity: 70%;
   transition-duration: 300ms;
   text-decoration: underline !important;
+
+}
+
+/* client section  */
+
+.client-section {
+  background-color: #fff;
+  height: 270px;
+}
+
+
+.client-logo-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+
+.client-logo-group img {
+  display: block;
+
+  margin: auto;
+
+  max-width: 60%;
+
+  height: auto;
+
+}
+
+.client-logo-group>div {
+  display: flex;
+  align-items: center;
+  /* Centers content vertically within grid cells */
+  justify-content: center;
+  /* Centers content horizontally within grid cells */
+}
+
+@media (max-width: 1000px) {
+
+  .client-logo-group {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+
+  .client-section {
+    background-color: #fff;
+    height: 300px;
+  }
+
+
+}
+
+.client-logos {
+  max-height: 100px;
+  max-width: 200px;
+  object-fit: contain;
+  filter: grayscale(100);
+  transition-duration: 400ms;
+}
+
+.client-logos:hover {
+  filter: grayscale(0);
 
 }

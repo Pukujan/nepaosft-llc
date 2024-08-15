@@ -10039,7 +10039,7 @@ body .search-modal .close:hover {
 .rs-inner-blog .widget-area .widget-title .title {
   color: #101010;
   font-size: 20px;
-  line-height: 26px;
+
   font-weight: 600;
   position: relative;
   z-index: 1;
@@ -10397,6 +10397,7 @@ body .search-modal .close:hover {
   display: inline-block;
   position: relative;
   transition: all 0.3s ease-in-out;
+
 }
 
 .rs-partner .partner-item .logo-img a .hover-logo {
@@ -10408,6 +10409,7 @@ body .search-modal .close:hover {
   left: 0;
   visibility: hidden;
   filter: grayscale(100%);
+
 }
 
 .rs-partner .partner-item .logo-img a .main-logo {
@@ -12037,7 +12039,7 @@ body .search-modal .close:hover {
 
 .rs-footer .footer-top .widget-title {
   font-size: 22px;
-  line-height: 40px;
+
   font-weight: 600;
   color: #101010;
   margin-top: 25px;
@@ -12071,7 +12073,7 @@ body .search-modal .close:hover {
   text-align: center;
   font-size: 15px;
   transition: all .8s ease;
-  background: rgba(255, 255, 255, 0.9);
+
 }
 
 .rs-footer .footer-top .footer-social li a i {
@@ -12080,7 +12082,7 @@ body .search-modal .close:hover {
 
 .rs-footer .footer-top .footer-social li a:hover {
   color: #ffffff;
-  background: var(--primary-color);
+  filter: grayscale(100);
 }
 
 .rs-footer .footer-top .footer-social li:last-child {
@@ -12184,7 +12186,7 @@ body .search-modal .close:hover {
 
 .rs-footer .footer-bottom {
   padding: 20px 0;
-  background: rgba(255, 255, 255, 0.4);
+
 }
 
 .rs-footer .footer-bottom .copyright p {

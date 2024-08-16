@@ -1,5 +1,11 @@
 /* Global css  */
 
+input {
+  width: 100%;
+}
+
+
+
 .icon-size {
   width: 24px;
 
@@ -62,7 +68,7 @@
   color: var(--primary-color);
   text-align: center;
   margin: 0;
-
+  font-size: 25px;
 }
 
 /* Banner css  */

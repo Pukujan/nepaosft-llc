@@ -8768,7 +8768,7 @@ body .search-modal .close:hover {
 }
 
 .rs-project.style3 .project-item .project-content:before {
-  content: '';
+
   position: absolute;
   top: 0;
   left: 0;

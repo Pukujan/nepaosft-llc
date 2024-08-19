@@ -186,7 +186,7 @@ input {
 
 /* about us  */
 .about-us-text {
-  text-align: center;
+  text-align: left;
   line-height: 2em;
   font-size: 18px;
 }

@@ -1,0 +1,39 @@
+.services-page-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  padding: 0 100px;
+  line-height: 2em;
+  font-size: 18px;
+
+}
+
+.services-page-text h2 {
+  text-align: left;
+}
+
+
+@media (max-width: 800px) {
+
+  .services-page-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0 30px;
+    font-size: 18px;
+  }
+}
+
+
+.services-page-item {
+  padding: 40px 0;
+}
+
+
+.services-details-text {
+  font-size: 1.6em;
+}

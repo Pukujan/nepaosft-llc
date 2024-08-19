@@ -4,8 +4,6 @@ input {
   width: 100%;
 }
 
-
-
 .icon-size {
   width: 24px;
   margin-right: 10px;
@@ -230,6 +228,7 @@ input {
   color: white;
   border: 1px white;
   padding: 3px 10px;
+  width: 230px;
 
 }
 

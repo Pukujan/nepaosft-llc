@@ -116,7 +116,8 @@
 -------------------------------------*/
 html,
 body {
-  font-size: var(--font-size) color: var(--text-color);
+  font-size: var(--font-size);
+  color: var(--text-color);
   font-family: var(--font-family-primary);
   vertical-align: baseline;
 
@@ -137,7 +138,7 @@ h1 {
 
 h2 {
   font-size: 36px;
-
+  font-weight: 700;
 }
 
 h3 {
@@ -12041,7 +12042,7 @@ body .search-modal .close:hover {
 
 .rs-footer .footer-top .widget-title {
   font-size: 22px;
-
+  margin-bottom: 15px;
   font-weight: 600;
   color: #101010;
   margin-top: 25px;
@@ -12052,7 +12053,7 @@ body .search-modal .close:hover {
 }
 
 .rs-footer .footer-top .site-map li a {
-  font-size: 16px;
+  font-size: 18px;
   color: #454545;
 }
 

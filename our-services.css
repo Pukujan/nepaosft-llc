@@ -4,7 +4,7 @@
   justify-content: center;
   text-align: justify;
   padding: 0 100px;
-  line-height: 2em;
+
 
 
 }
@@ -22,10 +22,10 @@
     flex-direction: column;
     justify-content: center;
     text-align: justify;
-    line-height: 1.5em;
+
     padding: 0;
     margin: 0 30px;
-    font-size: 17px;
+
   }
 }
 
@@ -35,7 +35,21 @@
 }
 
 
+.details-container {
+
+  display: flex;
+  justify-content: center;
+}
+
 .services-details-text {
 
+  max-width: 900px;
   text-align: justify;
+}
+
+
+.service-banner-img {
+  padding: 100px 0 0;
+  height: 400px;
+
 }

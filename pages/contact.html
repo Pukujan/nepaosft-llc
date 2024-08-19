@@ -227,7 +227,7 @@
       </div>
       <!--Full width header End-->
 
-      <!-- contact form  -->
+      <!-- contact form  css content -->
       <div class="form section">
 
         <!-- sidebar  -->
@@ -235,8 +235,13 @@
           <div class="row">
             <div class="col-md-4">
               <div class="contact-side-section ">
-                <p>Let's Talk</p>
-                <h2>Speak With Our Experts.</h2>
+                <div style="margin-bottom: 50px;">
+                  <p>Let's Talk</p>
+                  <h2>Speak With Our Experts.</h2>
+                </div>
+
+                <!-- contacts  -->
+
                 <div>
                   <div class="d-flex align-items-center">
                     <svg id="Layer_2" class="contact-icon-size" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
@@ -319,49 +324,64 @@
               </div>
             </div>
 
+            <!-- form section  -->
+
             <div class="form-section col-md-8">
               <p>Get in touch</p>
 
-              <h2>Fill The Form Below</h2>
+              <h2 style="font-weight: 700;">Fill The Form Below</h2>
 
               <div>
-                <form id="contact-form" method="post" action="mailer.php">
-                  <fieldset>
-                    <div class="row">
-                      <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                        <input class="from-control" type="text" id="name" name="name" placeholder="Name" required="">
-                      </div>
-                      <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                        <input class="from-control" type="text" id="email" name="email" placeholder="E-Mail"
-                          required="">
-                      </div>
-                      <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                        <input class="from-control" type="text" id="phone" name="phone" placeholder="Phone Number"
-                          required="">
-                      </div>
-                      <div class="col-lg-6 mb-30 col-md-6 col-sm-6">
-                        <input class="from-control" type="text" id="website" name="website" placeholder="Your Website"
-                          required="">
-                      </div>
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
 
-                      <div class="col-lg-12 mb-30">
-                        <textarea class="from-control" id="message" name="message" placeholder="Your message Here"
-                          required=""></textarea>
-                      </div>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
+                        style="padding: 20px 15px; background-color: #F6F7F9;">
                     </div>
-                    <div class="btn-part">
-                      <div class="form-group mb-0">
-                        <input class="readon learn-more submit" type="submit" value="Submit Now">
-                      </div>
+
+                    <div class="form-group col-md-6">
+
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
+                        style="padding: 20px 15px; background-color: #F6F7F9;">
                     </div>
-                  </fieldset>
-                </form>
+                  </div>
+
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
+                        style="padding: 20px 15px; background-color: #F6F7F9;">
+                    </div>
+                    <div class="form-group col-md-6">
+
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
+                        style="padding: 20px 15px; background-color: #F6F7F9;">
+                    </div>
+                  </div>
+
+
+                  <div class="form-group">
+
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email"
+                      style="padding: 20px 15px; background-color: #F6F7F9;">
+                  </div>
+
               </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
+
+    <!-- contact form  css-content end -->
+
+
+
     <!-- Footer Start -->
     <footer id="rs-footer" class="rs-footer footer-background">
       <div class="footer-top">

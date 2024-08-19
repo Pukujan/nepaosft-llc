@@ -8,7 +8,6 @@ input {
 
 .icon-size {
   width: 24px;
-
   margin-right: 10px;
 }
 
@@ -34,7 +33,7 @@ input {
 
 
 .footer-background {
-  background: url(/assets/images/png/footer-background2.png);
+  background: url(assets/images/png/footer-background2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -183,7 +182,7 @@ input {
 
 .banner-text {
   color: white;
-  width: 500px;
+  max-width: 500px;
 }
 
 
@@ -196,7 +195,7 @@ input {
 
 /* services css */
 .services-img {
-  height: 200px;
+  max-height: 200px;
 }
 
 .services-title {

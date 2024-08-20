@@ -137,7 +137,7 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2em;
   font-weight: 700;
 }
 
@@ -775,7 +775,7 @@ blockquote {
 }
 
 blockquote:before {
-  content: "\f129";
+  content: "''";
   font-size: 35px;
   color: #0b70e1;
   padding-bottom: 0;
@@ -6314,10 +6314,10 @@ body .search-modal .close:hover {
     16. Team Section CSS
 ---------------------------------------*/
 .rs-team {
-  background: url(assets/images/bg/team-bg.png);
+  background: url(assets/images/png/team/team-bg.png);
   background-position: center center;
   background-size: cover;
-  background-color: var(--primary-color);
+  width: 100vw;
 }
 
 .rs-team .team-item-wrap .team-wrap {
@@ -6396,14 +6396,14 @@ body .search-modal .close:hover {
   border-radius: 30px;
   border: none;
   transition: all 0.3s ease;
-  background: #0B70E1;
+  background: #fff;
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
 .rs-team .owl-dots .owl-dot:hover,
 .rs-team .owl-dots .owl-dot.active {
   width: 40px;
-  background: #0B70E1;
+  background: var(--primary-color);
   opacity: 1;
 }
 

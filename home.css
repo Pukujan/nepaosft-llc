@@ -58,14 +58,29 @@ input {
 .section-title {
   font-size: 2em;
   text-align: center;
+  max-width: 490px;
 
 }
+
+.section-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+
 
 .section-sub-title {
   color: var(--primary-color);
   text-align: center;
+  text-transform: uppercase;
   margin: 0;
-  font-size: 25px;
+  font-size: 20px;
+
 }
 
 /* Banner css  */
@@ -186,14 +201,14 @@ input {
 
 /* about us  */
 .about-us-text {
-  text-align: center;
+  text-align: left;
   line-height: 2em;
   font-size: 18px;
 }
 
 /* services css */
 .services-img {
-  max-height: 200px;
+  max-height: 50px;
 }
 
 .services-title {
@@ -247,8 +262,8 @@ input {
 /* client section  */
 
 .client-section {
-  background-color: #fff;
-  height: 270px;
+
+  height: 200px;
 }
 
 
@@ -295,7 +310,7 @@ input {
 
 
   .client-section {
-    background-color: #fff;
+
     height: 300px;
   }
 

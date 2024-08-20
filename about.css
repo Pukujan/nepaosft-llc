@@ -1,0 +1,13 @@
+.process-img {
+  width: 100px;
+  height: auto;
+}
+
+.about-us-img {
+  width: auto;
+  height: 400px;
+}
+
+.team-bg {
+  color: var(--secondary-color);
+}

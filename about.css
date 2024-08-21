@@ -8,6 +8,12 @@
   height: 400px;
 }
 
+@media (max-width: 400px) {
+  .about-us-img {
+    height: 200px;
+  }
+}
+
 .team-bg {
   color: var(--secondary-color);
 }

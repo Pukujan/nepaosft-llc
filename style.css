@@ -1472,17 +1472,17 @@ blockquote cite:before {
 }
 
 .blog-button.style3 a:hover {
-  color: #787cf2;
+  color: var(--primary-color);
 }
 
 .blog-button.style3 a:hover:after {
-  color: #787cf2;
+  color: var(--primary-color);
 }
 
 .blog-button.inner-blog a {
   text-align: center;
   display: inline-block;
-  color: #0b70e1;
+  color: var(--primary-color);
   padding-right: 25px;
   position: relative;
   z-index: 1;
@@ -9952,8 +9952,8 @@ body .search-modal .close:hover {
 .rs-inner-blog .blog-item .blog-img .post-categories li a {
   border-radius: 30px;
   color: #ffffff;
-  background: #03228f;
-  background: -moz-linear-gradient(90deg, var(--primary-color), var(--secondary-color)) background: -webkit-linear-gradient(90deg, var(--primary-color), var(--secondary-color)) background: linear-gradient(90deg, var(--primary-color), var(--secondary-color)) filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#03228f', endColorstr='#0b70e1', GradientType=1);
+  background: var(--primary-color);
+
   transition: 0.4s;
   font-size: 14px;
   font-weight: 500;

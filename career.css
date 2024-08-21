@@ -1,0 +1,15 @@
+.jobs-card {
+  border: 1px solid #aaa;
+  padding: 20px;
+}
+
+
+.jobs-card:hover {
+  border: 2px solid #000;
+}
+
+
+.jobs-icon {
+  margin-bottom: 15px;
+  height: 20px;
+}

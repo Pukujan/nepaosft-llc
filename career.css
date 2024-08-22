@@ -3,13 +3,111 @@
   padding: 20px;
 }
 
-
 .jobs-card:hover {
   border: 2px solid #000;
 }
 
-
 .jobs-icon {
-  margin-bottom: 15px;
-  height: 20px;
+  width: 15px;
+}
+
+.career-card-contact-details {
+  display: flex;
+  padding-left: 50px;
+  gap: 15px;
+  align-items: center;
+}
+
+
+.button-style-flex {
+  display: flex;
+  margin-left: 20px;
+  padding: 5px;
+  align-items: center;
+  gap: 2px;
+  color: var(--primary-color);
+
+}
+
+.button-style-flex:hover {
+  margin-left: 10px;
+  text-transform: underline;
+
+}
+
+.apply-now-button {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 771px) {
+
+  .apply-now-button {
+
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+
+}
+
+.career-details-banner {
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .career-details-banner {
+    display: none;
+  }
+}
+
+.career-details-requirements li {
+  text-decoration: none;
+  list-style-type: disc;
+  color: #000;
+  margin-left: 20px;
+
+}
+
+
+.larger-paragraph-font {
+  font-size: 1.3em;
+}
+
+.about-company-logo {
+  width: 300px;
+  height: auto;
+}
+
+.career-mini-section {
+  padding: 50px 0;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+
+
+
+
+.apply-now-light {
+  padding: 10px 50px;
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.apply-now-light:hover {
+  background-color: #ccc;
+}
+
+
+.apply-button-config {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 991px) {
+  .apply-button-config {
+    justify-content: left;
+  }
 }

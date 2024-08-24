@@ -30,9 +30,7 @@
 }
 
 
-.services-page-item {
-  padding: 40px 0;
-}
+.services-page-item {}
 
 
 .details-container {
@@ -51,5 +49,12 @@
 .service-banner-img {
   padding: 100px 0 0;
   height: 400px;
+}
 
+@media (max-width: 901px) {
+
+  .service-banner-img {
+
+    height: 300px;
+  }
 }

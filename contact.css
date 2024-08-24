@@ -1,7 +1,7 @@
 .contact-side-section {
   background-color: var(--primary-color);
   color: white;
-  padding: 80px 30px;
+  padding: 25px 20px;
   margin: 30px 0;
 }
 
@@ -15,4 +15,12 @@
   width: 30px;
   height: 30px;
   margin: 0 20px 20px 0;
+}
+
+.icon-with-bg {
+
+  margin-right: 20px;
+  width: 40px;
+
+
 }

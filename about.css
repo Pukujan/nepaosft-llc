@@ -17,3 +17,14 @@
 .team-bg {
   color: var(--secondary-color);
 }
+
+.hide-small {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .hide-small {
+    display: none;
+  }
+}

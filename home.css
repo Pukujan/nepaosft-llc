@@ -5,7 +5,7 @@ input {
 }
 
 .icon-size {
-  width: 24px;
+  width: 30px;
   margin-right: 10px;
 }
 
@@ -15,9 +15,12 @@ input {
 }
 
 .social-icon-size {
-  height: 25px;
+  height: 15px;
   width: auto;
+  filter: brightness(50%) saturate(100%);
 }
+
+
 
 .small-container {
   max-width: 1000px;

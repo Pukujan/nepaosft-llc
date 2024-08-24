@@ -6758,10 +6758,10 @@ body .search-modal .close:hover {
 
 .rs-team-Single .btm-info-team {
   position: relative;
-  box-shadow: 0px 0px 32px 0px rgba(7, 28, 31, 0.05);
+
   background: #fff;
   margin-bottom: 70px;
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .rs-team-Single .btm-info-team .images-part {
@@ -6777,8 +6777,8 @@ body .search-modal .close:hover {
 }
 
 .rs-team-Single .btm-info-team .con-info .designation-info {
-  font-size: 16px;
-  line-height: 27px;
+
+
   font-weight: 400;
   color: #0B70E1;
   display: block;
@@ -12076,7 +12076,7 @@ body .search-modal .close:hover {
   text-align: center;
   font-size: 15px;
   transition: all .8s ease;
-
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .rs-footer .footer-top .footer-social li a i {
@@ -12084,8 +12084,8 @@ body .search-modal .close:hover {
 }
 
 .rs-footer .footer-top .footer-social li a:hover {
-  color: #ffffff;
-  filter: grayscale(100);
+  background-color: var(--primary-color);
+
 }
 
 .rs-footer .footer-top .footer-social li:last-child {

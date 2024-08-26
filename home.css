@@ -126,10 +126,27 @@ input {
 
 }
 
+@media (max-width: 400px) {
+  .home-banner {
+    background-color: var(--secondary-color);
+    height: 550px;
+  }
+}
+
 
 .home-banner .banner-img {
   padding: 100px 0 0;
   height: 400px;
+
+}
+
+@media (max-width: 400px) {
+
+  .home-banner .banner-img {
+    height: 250px;
+
+  }
+
 
 }
 

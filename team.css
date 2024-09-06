@@ -61,3 +61,17 @@
   padding: 20px 0;
   color: #000;
 }
+
+.profile-img {
+  width: 300px !important;
+  height: auto;
+  padding: 10px;
+
+}
+
+@media (max-width: 991px) {
+  .profile-img {
+    width: 200px !important;
+    height: auto;
+  }
+}

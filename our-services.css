@@ -4,9 +4,6 @@
   justify-content: center;
   text-align: justify;
   padding: 0 100px;
-
-
-
 }
 
 .services-page-text h2 {
@@ -30,7 +27,9 @@
 }
 
 
-.services-page-item {}
+.services-page-item {
+  padding-bottom: 40px;
+}
 
 
 .details-container {

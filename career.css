@@ -1,6 +1,15 @@
 .jobs-card {
   border: 1px solid #aaa;
-  padding: 20px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .jobs-card {
+    padding: 5px;
+
+  }
+
 }
 
 .jobs-card:hover {
@@ -13,9 +22,9 @@
 
 .career-card-contact-details {
   display: flex;
-  padding-left: 50px;
+  padding-left: 10px;
   gap: 15px;
-  align-items: center;
+  align-items: baseline;
 }
 
 
